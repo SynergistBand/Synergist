@@ -1,4 +1,4 @@
-synergist
+Synergist
 =========
 
 Synergistband.com
