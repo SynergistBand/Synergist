@@ -1,0 +1,642 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+/* CSS Document */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body { 
+
+
+
+	min-height: 100%;
+
+
+
+	background-color: #000000;
+
+
+
+	border-width: 0px;
+
+
+
+	background-image:url('../bg/bg_synergist.jpg');
+
+
+
+	background-position:top center;
+
+
+
+	background-repeat:repeat-x;
+
+
+
+	background-attachment:scroll;
+
+
+
+	color:#FFF;
+
+
+
+	padding:0px;
+
+
+
+	margin:0px;
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+	font-size:12px;
+
+
+
+}
+
+
+
+
+
+
+
+a {
+
+
+
+	color: #04aeff;
+
+
+
+	font-weight:bold;
+
+
+
+	text-decoration:none;
+
+
+
+}
+
+
+
+
+
+
+
+a:visited {
+
+
+
+	color: #04aeff;
+
+
+
+	font-weight:bold;
+
+
+
+}
+
+
+
+
+
+
+
+a:active, a:hover {
+
+
+
+	color: #52c4f6;
+
+
+
+	font-weight:bold;
+
+
+
+}
+
+
+
+
+
+
+
+div{
+
+
+
+	padding:0px;
+
+
+
+	margin:0px;
+
+
+
+}
+
+
+
+h3{
+
+
+
+	-webkit-margin-before:0;
+
+
+
+	-webkit-margin-after:0;
+
+
+
+	-webkit-margin-start:0;
+
+
+
+	-webkit-margin-end:0;
+
+
+
+	margin:0;
+
+
+
+}
+
+
+
+div#synergistLogo{
+
+
+
+	margin-top:273px;
+
+
+
+	margin-bottom:32px;
+
+
+
+	width: 100%;
+
+
+
+	text-align:center;
+
+
+
+}
+
+
+
+div#synergistLogo.wtopAdv{
+
+
+
+margin-top:0px;
+
+
+
+}
+
+
+
+div#topAdv{margin-top:10px; margin-left:auto; margin-right:auto; margin-bottom:32px;}
+
+
+
+
+
+
+
+div#musicPlayer{
+
+
+
+	width:865px;
+
+
+
+	left:50%;
+
+
+
+	margin-left:-430px;
+
+
+
+	height:120px;
+
+
+
+	position:relative;
+
+
+
+	margin-bottom:12px;
+
+
+
+	padding:0;
+	
+
+
+
+}
+
+
+
+div#musicPlayer .left-player{float:left; padding-right:10px;}
+
+
+
+div#musicPlayer .right-player{float:left;}
+
+
+
+div#subLine{
+
+
+
+	width:930px;
+
+
+
+	left:50%;
+
+
+
+	margin-left:-480px;
+
+
+
+	background-image:url('http://www.synergistband.com/bg/bg_trans_black.png');
+
+
+
+	height:45px;
+
+
+
+	position:relative;
+
+
+
+	padding-left:15px;
+
+
+
+	padding-right:15px;
+
+
+
+	margin-bottom:21px;
+
+
+
+}
+
+
+
+div#content{
+
+
+
+	width:945px;
+
+
+
+	height:800px;
+
+
+
+	left:50%;
+
+
+
+	margin-left:-480px;
+
+
+
+	background-image:url('http://www.synergistband.com/bg/bg_trans_black.png');
+
+
+
+	position:relative;
+
+
+
+	padding-left:15px;
+
+
+
+	margin-bottom:34px;
+
+
+
+}
+
+
+
+div#facebook-link {
+
+
+
+	float:left;
+
+
+
+	width:400px;
+
+
+
+	height:45px; 
+
+
+
+	padding-top:10px;
+
+
+
+}
+
+
+
+div#twitter-follow, #URL{
+
+
+
+	width:265px;
+
+
+
+	padding-top:13px;
+
+
+
+	float:left;
+
+
+
+}
+
+
+
+div#URL{
+
+
+
+	padding-top:15px;
+
+
+
+	float:left;
+
+
+
+	width:265px;
+
+
+
+	text-align:right;
+
+
+
+}
+
+
+
+#content #bios {
+
+
+
+	width:320px;
+
+
+
+	padding-top:10px;
+
+
+
+}
+
+
+
+.bio-box{
+
+
+
+	width:320px;
+
+
+
+	height:100px;
+
+
+
+	padding-bottom:5px;
+
+
+
+}
+
+
+
+#content #bios .bio-box .bio-img, .bio-links{float:left;}
+
+
+
+#facebook-widget{width:320px;}
+
+
+
+#main-content {
+
+
+
+	float:left;
+
+
+
+	width:460px;
+
+
+
+}
+
+
+
+#left-content{
+
+
+
+	float:left;
+
+
+
+}
+
+
+
+#right-content{
+
+
+
+	float:right;
+
+	padding-right:10px;
+
+
+
+	width:150px;
+
+
+
+	text-align:right;
+
+
+
+}
+
+
+
+#band-bio { 
+
+
+
+	width:450px; 
+
+
+
+	padding: 10px 10px 0 10px;
+
+
+
+}
+
+#video{
+	padding: 10px 10px 0 10px;
+	padding-top:14px;
+	position:relative; 
+	line-height:9px; 
+	left:-330px;
+	}
+
+
+
+#lyrics a {color:#ffc645;}
+
+div#lyrics a:active, div#lyrics a:hover {color:#ffde45;}
+
+.social-link li{
+
+
+
+	list-style:none;
+
+
+
+	width:150px; 
+
+
+
+	padding-bottom:10px;
+
+
+
+	margin-left:-40px;
+
+
+
+	text-align:right;
+
+
+
+}
+
+
+
+.link-list{ margin-top:0;}
+
+
+
+.link-list li{
+
+
+
+	margin-left:-40px;
+
+
+
+	list-style:none;
+
+
+
+	font-weight:bold;
+
+
+
+}
+
+#twitter_div{
+
+	
+
+	display:block;
+
+	margin-bottom:10px;
+
+	padding-top:10px;
+
+	padding-right:15px;
+
+	width:145px;
+
+
+
+}
+
+#twitter_update_list li {
+
+	
+
+	list-style:none;
+
+	margin-top:-7px;
+
+	
+
+	margin-left:-40px;
+
+	
+
+	font-size:9px;
+
+	
+
+}
