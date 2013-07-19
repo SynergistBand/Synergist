@@ -1,0 +1,32 @@
+body {
+	background: #000 url(../synergist_portal.jpg) top center no-repeat;
+	background-size: 100%;
+	.container {
+		clear: both;
+		margin-top: 21%;
+		width: 75%;
+	}
+	header {
+		clear: both;
+		ul {
+			li { 
+				display:inline;
+				float:left; 
+				width: 13%;
+
+				a { width: 100%; }
+			}
+		}
+	}
+	article, aside {
+		background: #000000;
+		opacity: .66;
+	}
+	article {
+		width: 66%;
+		margin-right: 5%;
+	}
+	aside {
+		width: 28%;
+	}
+}
