@@ -7,30 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "scss/styles.scss",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index-new.html",
-			"settings":
-			{
-				"buffer_size": 3382,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 13752,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -59,12 +35,24 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Jon/Documents/Websites/TSN/index.html",
+		"/C/wamp/www/Synergist/index.php",
+		"/C/Users/Jon/Documents/Websites/Synergist/scss/styles.scss",
+		"/C/Users/Jon/Documents/Websites/Synergist/index-new.html",
+		"/C/Users/Jon/Documents/Websites/Synergist/index.php",
+		"/C/wamp/www/drupal-7.22/index.php",
+		"/C/wamp/www/wordpress/index.php",
+		"/C/wamp/www/drupal-7.22/includes/menu.inc",
+		"/C/Users/Jon/Documents/Websites/Synergist/index.html",
+		"/C/wamp/www/JonLewisCA/old/index.php",
+		"/C/Users/Jon/Documents/Websites/Synergist/inc/footer.html",
+		"/C/Users/Jon/Documents/Websites/Synergist/inc/nav.html",
+		"/C/Users/Jon/Documents/Websites/Synergist/inc/head.html",
+		"/C/Users/Jon/Documents/Websites/Synergist/inc/social.html",
 		"/C/Users/Jon/Documents/Websites/Synergist/css/reset.css",
+		"/C/Users/Jon/Documents/Websites/TSN/index.html",
 		"/C/Users/Jon/Documents/Websites/Synergist/css/styles.css",
 		"/C/Users/Jon/Documents/Websites/Synergist/contact.html",
 		"/C/Users/Jon/Documents/Websites/Synergist/store.html",
-		"/C/Users/Jon/Documents/Websites/Synergist/index.html",
 		"/C/Users/Jon/Documents/Websites/Synergist/tour.html",
 		"/C/Users/Jon/Documents/Websites/Synergist/scss/index-new.html"
 	],
@@ -101,94 +89,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "scss/styles.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index-new.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3382,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2420,
-								2420
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 912.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13752,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1582,
-								1582
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1758.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

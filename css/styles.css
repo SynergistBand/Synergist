@@ -10,12 +10,16 @@ body {
     body header ul li {
       display: inline;
       float: left;
+      text-align: center;
       width: 13%; }
       body header ul li a {
         width: 100%; }
   body article, body aside {
     background: #000000;
-    opacity: .66; }
+    opacity: .66;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px; }
   body article {
     width: 66%;
     margin-right: 5%; }
