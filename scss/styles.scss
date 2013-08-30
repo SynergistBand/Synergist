@@ -1,3 +1,13 @@
+$break-small: 320px;
+$black: #000000;
+@mixin box-bg {
+	background: $black;
+	opacity: .66;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
 body {
 	background: #000 url(../synergist_portal.jpg) top center no-repeat;
 	background-size: 100%;
@@ -9,18 +19,34 @@ body {
 	header {
 		clear: both;
 		ul {
+			display: block;
 			li { 
-				display:inline;
-				float:left; 
-				width: 13%;
+				display: inline;
+				float: left; 
+				padding: 0 1% 0 1%;
+				@media screen and (max-width: 826px) {
+					display: block;
+					float: none;
+					text-align: left;
+				}
+				text-align: center;
+				width: 12%;
 
 				a { width: 100%; }
 			}
 		}
-	}
-	article, aside {
-		background: #000000;
-		opacity: .66;
+		.nav {
+			@media screen and (max-width: 826px) {
+				display: inline-block;
+				@include box-bg;
+				padding: 10px;
+			}
+			li {
+				a{
+					
+				}
+			}
+		}
 	}
 	article {
 		width: 66%;
@@ -28,5 +54,15 @@ body {
 	}
 	aside {
 		width: 28%;
+		
 	}
+	article, aside {
+		float: left;
+		@include box-bg;
+		@media screen and (max-width: 826px) {
+			clear: both;
+			float: none;
+			width: 100%;
+		}
+	}	
 }

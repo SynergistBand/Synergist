@@ -1,23 +1,65 @@
 body {
   background: black url(../synergist_portal.jpg) top center no-repeat;
-  background-size: 100%; }
-  body .container {
-    clear: both;
-    margin-top: 21%;
-    width: 75%; }
-  body header {
-    clear: both; }
-    body header ul li {
-      display: inline;
-      float: left;
-      width: 13%; }
-      body header ul li a {
-        width: 100%; }
+  background-size: 100%;
+}
+body .container {
+  clear: both;
+  margin-top: 21%;
+  width: 75%;
+}
+body header {
+  clear: both;
+}
+body header ul {
+  display: block;
+}
+body header ul li {
+  display: inline;
+  float: left;
+  padding: 0 1% 0 1%;
+  text-align: center;
+  width: 12%;
+}
+@media screen and (max-width: 826px) {
+  body header ul li {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+}
+body header ul li a {
+  width: 100%;
+}
+@media screen and (max-width: 826px) {
+  body header .nav {
+    display: inline-block;
+    background: black;
+    opacity: .66;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 10px;
+  }
+}
+body article {
+  width: 66%;
+  margin-right: 5%;
+}
+body aside {
+  width: 28%;
+}
+body article, body aside {
+  float: left;
+  background: black;
+  opacity: .66;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 826px) {
   body article, body aside {
-    background: #000000;
-    opacity: .66; }
-  body article {
-    width: 66%;
-    margin-right: 5%; }
-  body aside {
-    width: 28%; }
+    clear: both;
+    float: none;
+    width: 100%;
+  }
+}

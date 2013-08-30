@@ -23,6 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 { font-size: 1.5em; }
 h2 { font-size: 1.2em; }
+
+
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border: none;
 }
@@ -77,8 +79,7 @@ ul.nav {
 }
 ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
 	font-family: "Planet N", Verdana, Tahoma;
-	font-size: 1.2em;
-	padding: 5px 5px 5px 15px;
+	font-size: 1em;
 	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
 	text-decoration: none;
 }
@@ -109,5 +110,12 @@ footer {
 /*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
 header, section, footer, aside, article, figure {
 	display: block;
+}
+@media screen and (max-width: 826px) {
+		p {
+			font-size: .8em;
+		}
+		h1 { font-size: 1em; }
+		h2 { font-size: .8em; }
 }
 -->
