@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Planet N", Verdana, Tahoma;
+	font-family: Verdana, Tahoma;
 }
 h1 { font-size: 1.5em; }
 h2 { font-size: 1.2em; }

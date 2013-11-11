@@ -8,36 +8,99 @@
 	"buffers":
 	[
 		{
-			"file": "contact.php",
+			"file": "scss/styles.scss",
 			"settings":
 			{
-				"buffer_size": 644,
+				"buffer_size": 1314,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "favicon.ico",
+			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 3515,
-				"line_ending": "Unix"
+				"buffer_size": 98,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/reset.css",
+			"settings":
+			{
+				"buffer_size": 6016,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/nav.html",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1056,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/head.html",
+			"settings":
+			{
+				"buffer_size": 1583,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/player.html",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Windows",
+				"name": "<iframe style=\"border: 0; width: 100%; height: 120"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 174.0,
 		"history":
 		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')"
 		]
 	},
 	"distraction_free":
@@ -51,13 +114,20 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Jon/Documents/Sports Interactive/Football Manager 2014/graphics/Premier League/icon/config.xml",
+		"/C/wamp/www/Synergist/inc/footer.html",
+		"/C/Users/Jon/Documents/Websites/Soccer/team",
+		"/C/wamp/www/Synergist/contact.php",
+		"/C/wamp/www/Synergist/index.php",
+		"/C/wamp/www/Synergist/inc/head.html",
+		"/C/wamp/www/Synergist/css/reset.css",
+		"/C/wamp/www/Synergist/inc/nav.html",
+		"/C/wamp/www/Synergist/scss/styles.scss",
 		"/C/wamp/www/Synergist/bio.php",
 		"/C/wamp/www/Synergist/tour.php",
-		"/C/wamp/www/Synergist/inc/nav.html",
 		"/C/wamp/www/Synergist/video.php",
 		"/C/wamp/www/Synergist/music.php",
 		"/C/wamp/www/Synergist/Synergist.sublime-project",
-		"/C/wamp/www/Synergist/index.php",
 		"/C/Users/Jon/Documents/Websites/Synergist/scss/styles.scss",
 		"/C/Users/Jon/Documents/Websites/Synergist/index-new.html",
 		"/C/Users/Jon/Documents/Websites/Synergist/index.php",
@@ -111,29 +181,113 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "contact.php",
+					"file": "scss/styles.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 644,
+						"buffer_size": 1314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								517,
-								460
+								1008,
+								1008
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 759.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/reset.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1122,
+								1122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inc/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -144,25 +298,82 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "favicon.ico",
-					"semi_transient": true,
+					"buffer": 4,
+					"file": "index.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3515,
+						"buffer_size": 1056,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								112,
+								112
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1464,
+								1464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 667.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "inc/player.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<iframe style=\"border: 0; width: 100%; height: 120",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -9,6 +9,9 @@
 
 <div class="container">
 <?php
+ require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/player.html");
+ ?>
+<?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
  ?>
   
