@@ -3,7 +3,7 @@
     src: url(../Planetnv2.ttf) format("truetype");
 }
 body {
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font: 100%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
 	color: #fff;
@@ -12,6 +12,11 @@ body {
 ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
 	padding: 0;
 	margin: 0;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
@@ -19,10 +24,16 @@ h1, h2, h3, h4, h5, h6, p {
 	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: Verdana, Tahoma;
+	font-family: Eurostile, Verdana, Tahoma;
 }
-h1 { font-size: 1.5em; }
-h2 { font-size: 1.2em; }
+h1 { 
+	font-size: 1.5em;
+	margin-bottom: 12px;
+}
+h2 { 
+	font-size: 1.2em;
+	margin-bottom: 0px; 
+}
 
 
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */

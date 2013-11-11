@@ -31,7 +31,7 @@
     </section>
   <!-- end .content --></article>
   <aside>
-    <h4>Tour Dates</h4>
+    <h4>Live Dates</h4>
     <p>TBA</p>
   </aside>
 <?php
