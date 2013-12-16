@@ -20,8 +20,8 @@ ul, ol, dl { /* Due to variations between browsers, it's best practices to zero 
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
-	padding-right: 15px;
-	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+	/*padding-right: 15px;
+	padding-left: 15px;*/ /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Eurostile, Verdana, Tahoma;
@@ -69,12 +69,12 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	padding-bottom: 10px;
 }
 .content {
-	padding: 10px 0;
+	padding: 10px 0 0 15px;
 	float: left;
 }
 aside {
 	float: left;
-	padding: 10px 0;
+	padding: 10px 0 0 0;
 }
 
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */

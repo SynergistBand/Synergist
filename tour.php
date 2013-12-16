@@ -14,7 +14,7 @@
   
   <article class="content">
     <h1>Tour Dates</h1>
-    <section>
+    <section><p>
      <table>
      <tr>
        <th>Venue</th>
@@ -24,7 +24,7 @@
         <td>TBA</td>
         <td>TBA</td>
       </tr>
-     </table>
+     </table></p>
     </section>
     
   <!-- end .content --></article>

@@ -8,9 +8,7 @@
 <body>
 
 <div class="container">
-<?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/player.html");
- ?>
+
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
  ?>
@@ -31,8 +29,9 @@
     </section>
   <!-- end .content --></article>
   <aside>
-    <h4>Live Dates</h4>
-    <p>TBA</p>
+    <?php
+ require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/tour.html");
+ ?>
   </aside>
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
