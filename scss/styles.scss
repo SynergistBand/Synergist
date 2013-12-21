@@ -1,22 +1,58 @@
 $break-small: 320px;
 $black: #000000;
 @mixin box-bg {
-	background: $black;
-	opacity: .66;
+	 /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.66);
+    
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
-	border-radius: 6px;
+	border-radius: 6px;	
+
 }
+
+
 .clear {
 	clear: none; 
 }
+.nav a {
+	/* Fallback for web browsers that don't support RGBa */
+ 	color: rgb(175, 175, 175);
+
+    /* RGBa with 0.6 opacity */
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.nav a:hover {
+  	/* Fallback for web browsers that don't support RGBa */
+    color: #b38b30;
+
+    /* RGBa with 0.6 opacity */
+    color: rgba(255, 198, 69, 0.70); /* #ffc645 */
+}
+
 body {
-	background: #000 url(../synergist_portal.jpg) top center no-repeat;
+	background: #000 url(../bg/synergist_portal.jpg) top center no-repeat;
 	background-size: 100%;
+	/* Fallback for web browsers that don't support RGBa */
+    color: rgb(175, 175, 175);
+
+    /* RGBa with 0.6 opacity */
+    color: rgba(255, 255, 255, 0.70);
+
 	.container {
 		clear: both;
 		margin-top: 21%;
 		width: 75%;
+
 	}
 
 	header {
@@ -86,14 +122,16 @@ body {
 		margin-right: 1%;
 	}
 	aside {
-		width: 29%;
-		padding-left: 15px;
+		width: 28%;
+		padding-left: 1%;
+		padding-right: 1%;
 		
 	}
 	article, aside {
-		min-height: 350px;
+		min-height: 850px;
 		float: left;
 		@include box-bg;
+		
 		@media screen and (max-width: 826px) {
 			clear: both;
 			float: none;
@@ -102,8 +140,10 @@ body {
 
 		}
 		
+		
 	}	
 }
+
 #music-player-container {
 	margin: 0px auto 37px; 
 	width: 700px;
@@ -124,4 +164,25 @@ body {
 	#maintext {
 		width: 40%;
 	}
+}
+.newsDate{
+	font-size:9px;
+	font-weight: regular;
+	white-space: nowrap;
+	display:block;
+	margin-bottom:14px;
+
+}
+.newsPhoto, .newsPhotoBig{	
+	margin-bottom:14px;
+	margin-right:10px;
+	max-height:640px;
+	float:left;
+	max-width:50%;
+	
+}
+.newsPhotoBig{
+	display:block;	
+	max-width:100%;
+	float:none;
 }

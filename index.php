@@ -4,7 +4,7 @@
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/head.html");
  ?></head>
-
+<script type="text/javascript" src="http://synergistband.tumblr.com/api/read/json"></script>
 <body>
 
 <div class="container">
@@ -14,19 +14,74 @@
  ?>
   
   <article class="content">
-    <h1>Latest</h1>
+    <h1>Recent News</h1>
+
+    
     <section>
-     <h2>Get the brand-new debut album right here!</h2>
-      <p>Synergist has released their debut self-titled record! Hear the album right here!</p>
+    <!--Title of Post--> 
+    <h2><script type="text/javascript">if (tumblr_api_read['posts'][0]['regular-title'] != undefined){
+    document.write(tumblr_api_read['posts'][0]['regular-title']); }</script></h2>
+    <hr>
+    <!--Date of Post-->
+    <span class="newsDate"><script type="text/javascript"> 
+    document.write(tumblr_api_read['posts'][0]['date']);</script></span>
+
+    <!--Post Image-->
+    <script type="text/javascript">if (tumblr_api_read['posts'][0]['photo-url-1280'] != undefined){
+
+    if tumblr_api_read['posts'][0]['regular-body'] != undefined){
+      document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhoto />');}
+    else {document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhotoBig />');}
+    }</script>  
+    
+
+    <!--Body of Post-->
+    <script type="text/javascript">if (tumblr_api_read['posts'][0]['regular-body'] != undefined){
+    document.write(tumblr_api_read['posts'][0]['regular-body']);}</script><br>&nbsp;  
     </section>
+    
     <section>
-      <h2>Upcoming Tour Dates</h2>
-      <p>Synergist could be coming to a venue near you! Check out the tour dates below: </p>
+    <!--Title of Post--> 
+    <h2><script type="text/javascript">if (tumblr_api_read['posts'][1]['regular-title'] != undefined){
+    document.write(tumblr_api_read['posts'][1]['regular-title']); }</script></h2>
+    <hr>
+    <!--Date of Post-->
+    <span class="newsDate"><script type="text/javascript"> 
+    document.write(tumblr_api_read['posts'][1]['date']);</script></span>
+
+    <!--Post Image-->
+    <script type="text/javascript">if (tumblr_api_read['posts'][1]['photo-url-1280'] != undefined 
+                                    && tumblr_api_read['posts'][1]['regular-body'] != undefined){
+    document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhoto />');}
+    else {document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhotoBig />');}</script>  
+    
+
+    <!--Body of Post-->
+    <script type="text/javascript">if (tumblr_api_read['posts'][1]['regular-body'] != undefined){
+    document.write(tumblr_api_read['posts'][1]['regular-body']);}</script><br>&nbsp;
     </section>
+    
     <section>
-      <h2>New Merch!</h2>
-      <p>Along with the new album, get the latest Synergist merch in the Synergist store!</p>
+    <!--Title of Post--> 
+    <h2><script type="text/javascript">if (tumblr_api_read['posts'][2]['regular-title'] != undefined){
+    document.write(tumblr_api_read['posts'][2]['regular-title']); }</script></h2>
+    <hr>
+    <!--Date of Post-->
+    <span class="newsDate"><script type="text/javascript"> 
+    document.write(tumblr_api_read['posts'][2]['date']);</script></span>
+
+    <!--Post Image-->
+    <script type="text/javascript">if (tumblr_api_read['posts'][2]['photo-url-1280'] != undefined 
+                                    && tumblr_api_read['posts'][2]['regular-body'] != undefined){
+    document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhoto />');}
+    else {document.write('<img src=' + tumblr_api_read['posts']2]['photo-url-1280'] + ' class=newsPhotoBig />');}</script>  
+    
+
+    <!--Body of Post-->
+    <script type="text/javascript">if (tumblr_api_read['posts'][2]['regular-body'] != undefined){
+    document.write(tumblr_api_read['posts'][2]['regular-body']);}</script><br>&nbsp;  
     </section>
+        
   <!-- end .content --></article>
   <aside>
     <?php

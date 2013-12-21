@@ -2,9 +2,28 @@
   clear: none;
 }
 
+.nav a {
+  /* Fallback for web browsers that don't support RGBa */
+  color: #afafaf;
+  /* RGBa with 0.6 opacity */
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav a:hover {
+  /* Fallback for web browsers that don't support RGBa */
+  color: #b38b30;
+  /* RGBa with 0.6 opacity */
+  color: rgba(255, 198, 69, 0.7);
+  /* #ffc645 */
+}
+
 body {
-  background: black url(../synergist_portal.jpg) top center no-repeat;
+  background: black url(../bg/synergist_portal.jpg) top center no-repeat;
   background-size: 100%;
+  /* Fallback for web browsers that don't support RGBa */
+  color: #afafaf;
+  /* RGBa with 0.6 opacity */
+  color: rgba(255, 255, 255, 0.7);
 }
 body .container {
   clear: both;
@@ -15,8 +34,14 @@ body header {
   clear: both;
   margin-bottom: 10px;
   padding: 5px 5px 5px 5px;
-  background: black;
-  opacity: .66;
+  /* Fallback for web browsers that don't support RGBa */
+  background-color: black;
+  /* RGBa with 0.6 opacity */
+  background-color: rgba(0, 0, 0, 0.66);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -75,14 +100,21 @@ body article {
   margin-right: 1%;
 }
 body aside {
-  width: 29%;
-  padding-left: 15px;
+  width: 28%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 body article, body aside {
-  min-height: 350px;
+  min-height: 850px;
   float: left;
-  background: black;
-  opacity: .66;
+  /* Fallback for web browsers that don't support RGBa */
+  background-color: black;
+  /* RGBa with 0.6 opacity */
+  background-color: rgba(0, 0, 0, 0.66);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -119,4 +151,25 @@ body article, body aside {
   #maintext {
     width: 40%;
   }
+}
+.newsDate {
+  font-size: 9px;
+  font-weight: regular;
+  white-space: nowrap;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.newsPhoto, .newsPhotoBig {
+  margin-bottom: 14px;
+  margin-right: 10px;
+  max-height: 640px;
+  float: left;
+  max-width: 50%;
+}
+
+.newsPhotoBig {
+  display: block;
+  max-width: 100%;
+  float: none;
 }
