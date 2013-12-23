@@ -96,17 +96,38 @@ body header .mobile {
   overflow: hidden;
 }
 body article {
-  width: 67%;
+  width: 63.5%;
   margin-right: 1%;
 }
 body aside {
-  width: 28%;
-  padding-left: 1%;
-  padding-right: 1%;
+  width: 29.5%;
+}
+body aside #trackNames, body aside #trackNumbers {
+  font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+}
+body aside #trackNumbers {
+  float: left;
+  text-align: right;
+  padding-right: 1.5%;
+  padding-bottom: 16px;
+}
+body aside #trackNames {
+  float: left;
+  padding-bottom: 16px;
+  clear: right;
+}
+body aside ol, body aside ul, body aside p, body aside table {
+  padding-bottom: 16px;
+  list-style: inside;
+  list-style-type: decimal;
+  font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+  clear: left;
 }
 body article, body aside {
   min-height: 850px;
   float: left;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
   /* Fallback for web browsers that don't support RGBa */
   background-color: black;
   /* RGBa with 0.6 opacity */
@@ -123,7 +144,7 @@ body article, body aside {
   body article, body aside {
     clear: both;
     float: none;
-    width: 100%;
+    width: 97%;
     min-height: 100px;
   }
 }
@@ -172,4 +193,8 @@ body article, body aside {
   display: block;
   max-width: 100%;
   float: none;
+}
+
+.smallText {
+  font: 70%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 }

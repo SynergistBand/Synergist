@@ -118,24 +118,47 @@ body {
 		}
 	}
 	article {
-		width: 67%;
+		width: 63.5%;
 		margin-right: 1%;
 	}
 	aside {
-		width: 28%;
-		padding-left: 1%;
-		padding-right: 1%;
+		width: 29.5%;
+		#trackNames, #trackNumbers {
+			font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+
+			}
+		#trackNumbers {
+			float:left; 			
+			text-align:right; 
+			padding-right:1.5%; 
+			padding-bottom:16px;
+			}
+		#trackNames{
+			float:left; 			
+			padding-bottom:16px;
+			clear:right;			
+			}
+
+		ol, ul, p, table {			
+			padding-bottom:16px; 			
+			list-style: inside;
+			list-style-type: decimal;
+			font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+			clear:left;
+			}
 		
 	}
 	article, aside {
 		min-height: 850px;
 		float: left;
+		padding-left: 1.5%;
+		padding-right: 1.5%;
 		@include box-bg;
 		
 		@media screen and (max-width: 826px) {
 			clear: both;
 			float: none;
-			width: 100%;
+			width: 97%;
 			min-height: 100px;
 
 		}
@@ -185,4 +208,8 @@ body {
 	display:block;	
 	max-width:100%;
 	float:none;
+}
+
+.smallText {
+	font: 70%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 }

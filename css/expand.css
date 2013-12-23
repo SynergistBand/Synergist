@@ -1,0 +1,30 @@
+.wrap {
+position: relative;
+overflow: hidden;
+}
+.gradient {
+width:100%;
+
+background-attachment: bottom;
+position:absolute;
+bottom:0;
+left:0;
+}
+.read-more {
+border-top:1px single #FFF;
+color:#333;
+padding-bottom:32px;
+padding-top:3px;
+background-attachment: top;
+
+}
+.read-more a {
+font-weight:bold;
+text-decoration:none;
+
+}
+.read-more a:hover {/* Fallback for web browsers that don't support RGBa */
+    color: rgb(175, 175, 175);
+
+    /* RGBa with 0.6 opacity */
+    color: rgba(255, 255, 255, 0.70);}
