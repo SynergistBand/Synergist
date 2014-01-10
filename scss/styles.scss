@@ -123,30 +123,25 @@ body {
 	}
 	aside {
 		width: 29.5%;
-		#trackNames, #trackNumbers {
-			font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+		
 
-			}
-		#trackNumbers {
-			float:left; 			
-			text-align:right; 
-			padding-right:1.5%; 
-			padding-bottom:16px;
-			}
-		#trackNames{
-			float:left; 			
-			padding-bottom:16px;
-			clear:right;			
-			}
-
-		ol, ul, p, table {			
+		ol, ul, p, {			
 			padding-bottom:16px; 			
 			list-style: inside;
 			list-style-type: decimal;
-			font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+			font: 100%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 			clear:left;
 			}
-		
+		img {
+			max-width:100%;
+			margin-left:auto;
+			margin-right:auto;
+			display:block;
+		}
+
+		table {
+		font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+		}
 	}
 	article, aside {
 		min-height: 850px;
