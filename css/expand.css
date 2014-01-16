@@ -13,7 +13,7 @@ left:0;
 .read-more {
 border-top:1px single #FFF;
 color:#333;
-padding-bottom:32px;
+padding-bottom:24px;
 padding-top:3px;
 background-attachment: top;
 
@@ -21,6 +21,8 @@ background-attachment: top;
 .read-more a {
 font-weight:bold;
 text-decoration:none;
+margin-top: -8px;
+position: absolute;
 
 }
 .read-more a:hover {/* Fallback for web browsers that don't support RGBa */

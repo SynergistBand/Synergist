@@ -28,14 +28,16 @@
         <span class="newsDate"><script type="text/javascript"> 
         document.write(tumblr_api_read['posts'][0]['date']);</script></span>
 
-    <div class="wrap">
+    <div class="wrap" id="newsPost0">
         <div>
             <!--Post Image-->
             <script type="text/javascript">
                 if (tumblr_api_read['posts'][0]['photo-url-1280'] != undefined){ 
-                    if (tumblr_api_read['posts'][0]['regular-body'] != undefined){
+                    if (tumblr_api_read['posts'][0]['regular-body'] != undefined){ // float smaller if image goes with text
                         document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhoto />');}
-                    else {document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhotoBig />');}
+                    else {document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhotoBig />');
+                          $("#newsPost0").attr('class', 'noWrap'); // changes the "wrap class to noWrap so that images show without expandable <div>
+                        }
                 }</script>  
     
 
@@ -58,14 +60,16 @@
         <span class="newsDate"><script type="text/javascript"> 
         document.write(tumblr_api_read['posts'][1]['date']);</script></span>
 
-    <div class="wrap">
+    <div class="wrap"  id="newsPost1">
         <div>
             <!--Post Image-->
             <script type="text/javascript">
                 if (tumblr_api_read['posts'][1]['photo-url-1280'] != undefined){ 
-                    if (tumblr_api_read['posts'][1]['regular-body'] != undefined){
+                    if (tumblr_api_read['posts'][1]['regular-body'] != undefined){ // float smaller if image goes with text
                         document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhoto />');}
-                    else {document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhotoBig />');}
+                    else {document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhotoBig />');
+                          $("#newsPost1").attr('class', 'noWrap'); // changes the wrap class to noWrap so that images show without expandable <div>
+                        }
                 }</script>  
     
 
@@ -89,14 +93,16 @@
         <span class="newsDate"><script type="text/javascript"> 
         document.write(tumblr_api_read['posts'][2]['date']);</script></span>
 
-    <div class="wrap">
+    <div class="wrap" id="newsPost2">
         <div>
             <!--Post Image-->
             <script type="text/javascript">
                 if (tumblr_api_read['posts'][2]['photo-url-1280'] != undefined){ 
-                    if (tumblr_api_read['posts'][2]['regular-body'] != undefined){
+                    if (tumblr_api_read['posts'][2]['regular-body'] != undefined){ // float smaller if image goes with text
                         document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhoto />');}
-                    else {document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhotoBig />');}
+                    else {document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhotoBig />');
+                          $("#newsPost2").attr('class', 'noWrap'); // changes the wrap class to noWrap so that images show without expandable <div>
+                      }
                 }</script>  
     
 

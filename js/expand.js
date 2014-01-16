@@ -1,5 +1,5 @@
 $(function(){
-var slideHeight = 80;
+var slideHeight = 85;
 $(".newsPost").each(function() {
     var $this = $(this);
     var $wrap = $this.children(".wrap");
