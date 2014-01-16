@@ -117,12 +117,27 @@ body aside img {
 }
 body aside table {
   font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
+  margin-top: 16px;
+}
+body aside img#albumArtFloat {
+  max-width: 55%;
+  float: right;
+  margin: 0;
+  margin-left: 0.5%;
+}
+@media screen and (max-width: 826px) {
+  body aside img#albumArtFloat {
+    margin-left: 0;
+    float: none;
+  }
 }
 body article, body aside {
-  min-height: 850px;
+  min-height: 1000px;
   float: left;
   padding-left: 1.5%;
   padding-right: 1.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   /* Fallback for web browsers that don't support RGBa */
   background-color: black;
   /* RGBa with 0.6 opacity */

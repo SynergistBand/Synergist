@@ -7,8 +7,32 @@
  ?>
 
 <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+<link href="css/youmax.css" rel="stylesheet" type="text/css">
 <link type='text/css' href='css/modal.css' rel='stylesheet' media='screen' />
-<script type='text/javascript' src='js/media.js'></script>
+
+<script type="text/javascript"> //YouMax Plugin  
+  var youTubeChannelURL = "http://www.youtube.com/user/SynergistBand";
+  
+  //optional parameters-----------------------------------------------
+  var youTubePlaylistURL = "";
+  var youmaxDefaultTab = "uploads";
+  var youmaxColumns = 3;  
+  var youmaxWidgetWidth = 800;
+  //var youmaxWidgetHeight = 1000;
+  var showFeaturedVideoOnLoad = false;
+  var showVideoInLightbox = true;
+
+  
+  function goClicked() {
+    $('#youmax').empty().append(' loading ...');
+    youTubeChannelURL=$('#youTubeChannelUrl').val();
+    youTubePlaylistURL=$('#youTubePlaylistUrl').val();
+    youmaxFeaturedPlaylistId = null;
+    prepareYoumax();
+  }
+  //End of YouMax Plugin 
+</script> 
+
 </head>
 
 <body>
@@ -20,6 +44,12 @@
   
   <article class="content">
     <h1>Media</h1>
+    <div>
+      <h2>YouTube</h2>
+      <div id="youmax"></div>
+
+    </div>
+
     <div>
       <h2>Album Artwork</h2>
       
@@ -35,6 +65,8 @@
         <br>&nbsp;<br>
     </div>
 
+
+    <!-- Removed this but saved code for later just in case
 
     <div class="album">
      <h2>The Catalyst Demos (2007)</h2>
@@ -63,15 +95,19 @@
         <li>Still</li>
         <li>A Scientist's Faith</li>
       </ol>
-    </div>
+    </div>-->
   <!-- end .content --></article>
   <aside>
-    <h4>Tour Dates</h4>
-    <p>TBA</p>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album-listen.html"); ?>
   </aside>
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
  ?>
   <!-- end .container --></div>
+
+
+
+<script type='text/javascript' src='js/media.js'></script>
+<script type='text/javascript' src='js/youmax.min.js'></script>
 </body>
 </html>
