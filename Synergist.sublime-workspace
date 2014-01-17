@@ -8,42 +8,13 @@
 	"buffers":
 	[
 		{
-			"file": "scss/styles.scss",
-			"settings":
-			{
-				"buffer_size": 1314,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/main.js",
-			"settings":
-			{
-				"buffer_size": 98,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/reset.css",
-			"settings":
-			{
-				"buffer_size": 6016,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/nav.html",
-			"settings":
-			{
-				"buffer_size": 469,
-				"line_ending": "Windows"
-			}
-		},
-		{
+			"contents": "<!doctype html>\n<html>\n<head>\n<?php\n require($_SERVER['DOCUMENT_ROOT'] . \"/Synergist/inc/head.html\");\n ?>\n<script type=\"text/javascript\" src=\"http://synergistband.tumblr.com/api/read/json\"></script>\n<script type=\"text/javascript\" src=\"js/expand.js\"></script>\n<link href=\"css/expand.css\" rel=\"stylesheet\" type=\"text/css\">\n</head>\n\n<body>\n\n<div class=\"container\">\n\n<?php\n require($_SERVER['DOCUMENT_ROOT'] . \"/Synergist/inc/nav.html\");\n ?>\n  \n  <article class=\"content\">\n    <h1>Recent News</h1>\n    \n    <section class=\"newsPost\">    \n        <!--Title of Post--> \n        <h2><script type=\"text/javascript\">if (tumblr_api_read['posts'][0]['regular-title'] != undefined){\n        document.write(tumblr_api_read['posts'][0]['regular-title']); }</script></h2>\n        <hr>\n        <!--Date of Post-->\n        <span class=\"newsDate\"><script type=\"text/javascript\"> \n        document.write(tumblr_api_read['posts'][0]['date']);</script></span>\n\n      <div class=\"wrap\">\n          <div>\n              <!--Post Image-->\n              <script type=\"text/javascript\">\n                  if (tumblr_api_read['posts'][0]['photo-url-1280'] != undefined){ \n                      if (tumblr_api_read['posts'][0]['regular-body'] != undefined){\n                          document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhoto />');}\n                      else {document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhotoBig />');}\n                  } \n      \n\n              //Body of Post\n              if (tumblr_api_read['posts'][0]['regular-body'] != undefined){\n              document.write(tumblr_api_read['posts'][0]['regular-body']);}</script>\n\n          </div>\n          <div class=\"gradient\">&nbsp;</div>\n      </div>\n      <div class=\"read-more\"></div>    \n    </section>\n\n    <section class=\"newsPost\">    \n        <!--Title of Post--> \n        <h2><script type=\"text/javascript\">if (tumblr_api_read['posts'][1]['regular-title'] != undefined){\n        document.write(tumblr_api_read['posts'][1]['regular-title']); }</script></h2>\n        <hr>\n        <!--Date of Post-->\n        <span class=\"newsDate\"><script type=\"text/javascript\"> \n        document.write(tumblr_api_read['posts'][1]['date']);</script></span>\n\n      <div class=\"wrap\">\n          <div>\n              <!--Post Image-->\n              <script type=\"text/javascript\">\n                  if (tumblr_api_read['posts'][1]['photo-url-1280'] != undefined){ \n                      if (tumblr_api_read['posts'][1]['regular-body'] != undefined){\n                          document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhoto />');}\n                      else {document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhotoBig />');}\n                  }</script>  \n      \n\n              <!--Body of Post-->\n              <script type=\"text/javascript\">if (tumblr_api_read['posts'][1]['regular-body'] != undefined){\n              document.write(tumblr_api_read['posts'][1]['regular-body']);}</script>\n\n          </div>\n          <div class=\"gradient\">&nbsp;</div>\n      </div>\n      <div class=\"read-more\"></div>    \n    </section>\n    \n    \n    <section class=\"newsPost\">    \n        <!--Title of Post--> \n        <h2><script type=\"text/javascript\">if (tumblr_api_read['posts'][2]['regular-title'] != undefined){\n        document.write(tumblr_api_read['posts'][2]['regular-title']); }</script></h2>\n        <hr>\n        <!--Date of Post-->\n        <span class=\"newsDate\"><script type=\"text/javascript\"> \n        document.write(tumblr_api_read['posts'][2]['date']);</script></span>\n\n      <div class=\"wrap\">\n          <div>\n              <!--Post Image-->\n              <script type=\"text/javascript\">\n                  if (tumblr_api_read['posts'][2]['photo-url-1280'] != undefined){ \n                      if (tumblr_api_read['posts'][2]['regular-body'] != undefined){\n                          document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhoto />');}\n                      else {document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhotoBig />');}\n                  }</script>  \n      \n\n              <!--Body of Post-->\n              <script type=\"text/javascript\">if (tumblr_api_read['posts'][2]['regular-body'] != undefined){\n              document.write(tumblr_api_read['posts'][2]['regular-body']);}</script>\n\n          </div>\n          <div class=\"gradient\">&nbsp;</div>\n      </div>\n      <div class=\"read-more\"></div>    \n    </section>\n   \n  <!-- end .content --></article>\n  <aside>\n    <?php\n require($_SERVER['DOCUMENT_ROOT'] . \"/Synergist/inc/album.html\");\n ?>\n  </aside>\n<?php\n require($_SERVER['DOCUMENT_ROOT'] . \"/Synergist/inc/footer.html\");\n ?>\n  <!-- end .container --></div>\n</body>\n</html>\n",
 			"file": "index.php",
+			"file_size": 4954,
+			"file_write_time": 130327329134695321,
 			"settings":
 			{
-				"buffer_size": 1056,
+				"buffer_size": 4891,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,17 +22,40 @@
 			"file": "inc/head.html",
 			"settings":
 			{
-				"buffer_size": 1583,
+				"buffer_size": 1683,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 3633,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/basic.js",
+			"settings":
+			{
+				"buffer_size": 439,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "inc/player.html",
 			"settings":
 			{
-				"buffer_size": 368,
-				"line_ending": "Windows",
-				"name": "<iframe style=\"border: 0; width: 100%; height: 120"
+				"buffer_size": 659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/nav.html",
+			"settings":
+			{
+				"buffer_size": 450,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -114,19 +108,26 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/Synergist/inc/news.html",
+		"/C/wamp/www/Synergist/contact.php",
+		"/C/wamp/www/Synergist/inc/bio.html",
+		"/C/wamp/www/Synergist/inc/media.html",
+		"/C/wamp/www/Synergist/inc/contact.html",
+		"/C/wamp/www/Synergist/inc/tour.html",
+		"/C/wamp/www/Synergist/inc/player.html",
+		"/C/wamp/www/Synergist/music.php",
+		"/C/wamp/www/Synergist/scss/styles.scss",
+		"/C/wamp/www/Synergist/js/main.js",
+		"/C/wamp/www/Synergist/css/reset.css",
+		"/C/wamp/www/Synergist/inc/nav.html",
+		"/C/wamp/www/Synergist/index.php",
+		"/C/wamp/www/Synergist/inc/head.html",
 		"/C/Users/Jon/Documents/Sports Interactive/Football Manager 2014/graphics/Premier League/icon/config.xml",
 		"/C/wamp/www/Synergist/inc/footer.html",
 		"/C/Users/Jon/Documents/Websites/Soccer/team",
-		"/C/wamp/www/Synergist/contact.php",
-		"/C/wamp/www/Synergist/index.php",
-		"/C/wamp/www/Synergist/inc/head.html",
-		"/C/wamp/www/Synergist/css/reset.css",
-		"/C/wamp/www/Synergist/inc/nav.html",
-		"/C/wamp/www/Synergist/scss/styles.scss",
 		"/C/wamp/www/Synergist/bio.php",
 		"/C/wamp/www/Synergist/tour.php",
 		"/C/wamp/www/Synergist/video.php",
-		"/C/wamp/www/Synergist/media.php",
 		"/C/wamp/www/Synergist/Synergist.sublime-project",
 		"/C/Users/Jon/Documents/Websites/Synergist/scss/styles.scss",
 		"/C/Users/Jon/Documents/Websites/Synergist/index-new.html",
@@ -154,7 +155,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 105.0,
 		"where_history":
 		[
 		]
@@ -181,24 +182,82 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scss/styles.scss",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1314,
+						"buffer_size": 4891,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1008,
-								1008
+								980,
+								980
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -207,82 +266,83 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 759.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 98,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								93
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/reset.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6016,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1122,
-								1122
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "inc/nav.html",
+					"file": "js/basic.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 469,
+						"buffer_size": 439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								301,
-								301
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/player.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
 							]
 						],
 						"settings":
@@ -295,90 +355,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1056,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								112,
-								112
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 69.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "inc/head.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1464,
-								1464
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 667.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "inc/player.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 368,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								87,
-								87
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<iframe style=\"border: 0; width: 100%; height: 120",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -415,6 +392,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"project": "Synergist.sublime-project",
 	"replace":
 	{

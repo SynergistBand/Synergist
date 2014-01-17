@@ -15,18 +15,17 @@
   <article class="content">
     <h1>Bio</h1>
     <section>
-      Synergist is a hard rock band from Toronto, Canada. Their blend of&nbsp;alternative, metal and 
-      punk influences allows the band to put a focus on songwriting, while fulfiling a desire to 
-      challenge themselves musically at the same time. Steadily building a repertoire of songs and 
-      a strong band dynamic since 2006, Synergist utilize each member's skills and tastes for a 
+      Synergist is a hard rock band from Toronto, Ontario, Canada formed by Jon Lewis, Chris Lyttle & Craig McCutcheon. 
+      The longtime friends blend alternative, metal, prog and punk influences to try and create something unique with a harder edge,  
+      while growing and pushing themselves as musicians at the same time. Steadily building a repertoire of songs to build 
+      a strong band dynamic, Synergist utilize each member's skills and tastes for a 
       melodic heavy sound. 
       <br />&nbsp;<br />
-      The band has adopted the DIY ethic of many independant artists in this era, writing and 
-      recording material themselves. Fans can download  Synergist's self-titled debut album from 
+      The band has written and recorded it's Self-Title debut LP in 2013. Fans can download "Synergist" from 
       <a href="http://synergist.bandcamp.com">synergist.bandcamp.com</a>.
       <br>&nbsp;<br />
-      <hr style="margin-top:15px;" />Currently seeking a new bassist: 
-      <a href="mailto:contact@synergistband.com">contact@synergistband.com</a> <hr style="margin-top:8px" />
+      <hr style="margin-top:15px;" />The band is seeking a new bassist and possibly further full members: Contact us by email at 
+      <a href="mailto:contact@synergistband.com">contact@synergistband.com</a> <hr style="margin-top:8px" /> or hit us up on social media!
       <br>&nbsp;
     </section>
   <!-- end .content --></article>
