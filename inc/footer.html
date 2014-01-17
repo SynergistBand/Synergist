@@ -1,6 +1,6 @@
   <footer>
     <p>
-    	© Synergist 2013. All rights reserved.
+    	© Synergist 2014. All rights reserved.
     	<br>&nbsp;
     </p>
     <address>
@@ -9,7 +9,21 @@
 
     <!-- SCM Music Player http://scmplayer.net -->
 <script type="text/javascript" src="http://scmplayer.net/script.js" 
-data-config="{'skin':'skins/black/skin.css','volume':76,'autoplay':false,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':'https://soundcloud.com/synergistband/sets/synergist-lp'}" ></script>
+data-config="{'skin':'skins/black/skin.css','volume':76,'autoplay':false,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':'https://soundcloud.com/synergistband/sets/synergist-lp'}" >
+</script>
 <!-- SCM Music Player script end -->
+
+<script type="text/javascript">
+    $(window).on('load resize', function(){
+        if ($(window).width() > 825 && $('article').height() !== 0 && $('aside').height() !== 0) //sizes up the columns to match
+        {   if ($('article').height() != $('aside').height() )
+            {
+                $('aside').css('height', $('article').height() +'px');
+            } else {
+                $('article').css('height', $('aside').height() +'px');
+            }
+        } 
+    });
+</script> 
 
   </footer>

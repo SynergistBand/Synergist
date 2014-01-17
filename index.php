@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html bgcolor="#FFFFFF">
 <head>
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/head.html");
@@ -16,8 +16,8 @@
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
  ?>
-  
-  <article class="content">
+ 
+  <article id="article" class="content">
     <h1>Recent News</h1>
     <section class="newsPost">    
         <!--Title of Post--> 
@@ -117,14 +117,14 @@
     </section>
    
   <!-- end .content --></article>
-  <aside>
-    <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album.html");
- ?>
+  <aside id="aside">
+    <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album.html"); ?>
   </aside>
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
  ?>
   <!-- end .container --></div>
+
+
 </body>
 </html>
