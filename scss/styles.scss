@@ -31,12 +31,9 @@ $black: #000000;
     color: rgba(255, 255, 255, 0.70);
 }
 
-.nav a:hover {
-  	/* Fallback for web browsers that don't support RGBa */
-    color: #b38b30;
-
-    /* RGBa with 0.6 opacity */
-    color: rgba(255, 198, 69, 0.70); /* #ffc645 */
+.nav a:hover {  	
+    color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
+    color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
 }
 
 body {
@@ -104,7 +101,7 @@ body {
 		.nav {
 			margin: auto;
 			
-			@media screen and (max-width: 826px) {
+			@media screen and (max-width: 910px) {
 				display: inline-block;
 				
 			}
@@ -150,7 +147,7 @@ body {
 			display:block;
 		}
 
-		table {
+		table#tracks {
 			font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 			margin-top:16px;
 		}
@@ -175,7 +172,7 @@ body {
 		padding-bottom:1%;
 		@include box-bg;
 		
-		@media screen and (max-width: 826px) {
+		@media screen and (max-width: 910px) {
 			clear: both;
 			float: none;
 			width: 97%;
@@ -233,3 +230,19 @@ body {
 .smallText {
 	font: 70%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 }
+
+a.menuLink, a.menuLink:visited{
+    color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
+    color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
+ 	color: rgb(175, 175, 175); /* Fallback for web browsers that don't support RGBa */    
+    color: rgba(255, 255, 255, 0.70); /* RGBa with 0.6 opacity */
+	font-family: "Planet N", Verdana, Tahoma;
+	font-size: 1em;
+	text-decoration: none;
+}
+a.menuLink:hover{
+	color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
+    color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
+}
+
+

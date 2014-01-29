@@ -139,11 +139,11 @@ footer {
 }
 
 /*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
-header, section, footer, aside, article, figure {
+header, section, footer, aside, article, figure,  {
 	display: block;
 }
 @media screen and (max-width: 826px) {
-		p {
+		p, aside {
 			font-size: .8em;
 		}
 		h1 { font-size: 1em; }

@@ -114,6 +114,8 @@
         <div class="gradient">&nbsp;</div>
     </div>
     <div class="read-more"></div>    
+    
+    <a href="http://synergistband.tumblr.com/" target="_blank" class="menuLink">NewS Archive</a> <span class="smallText">(Tumblr)</span>
     </section>
    
   <!-- end .content --></article>
