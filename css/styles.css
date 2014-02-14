@@ -107,6 +107,18 @@ body article table .date {
   padding-right: 20px;
   text-align: center;
 }
+body article h1#recentNews {
+  clear: both;
+  margin-bottom: 0px;
+}
+body article #newsSocialBtns {
+  margin-bottom: 10px;
+}
+body article #newsSocialBtns .newsSocialBtn {
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
 body aside {
   width: 29.5%;
 }
@@ -139,6 +151,23 @@ body aside img#albumArtFloat {
     float: none;
   }
 }
+body aside.centered {
+  text-align: center;
+}
+body aside.centered img {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 910px) {
+  body aside.centered img {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 910px) {
+  body aside.centered {
+    text-align: left;
+  }
+}
 body article, body aside {
   min-height: 650px;
   float: left;
@@ -161,8 +190,9 @@ body article, body aside {
 @media screen and (max-width: 910px) {
   body article, body aside {
     clear: both;
-    float: none;
     width: 97%;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 100px !important;
   }
 }

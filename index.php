@@ -18,8 +18,14 @@
  ?>
  
   <article id="article" class="content">
-    <h1>Recent News</h1>
-    <section class="newsPost">    
+    
+    <h1 id="recentNews">Recent&nbsp;News</h1>
+    <div id="newsSocialBtns">
+        <div class="newsSocialBtn" style="padding-bottom:5px; padding-top:1px;"><div class="fb-like" data-href="https://www.facebook.com/SynergistBand" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></div>
+        <div class="newsSocialBtn" style="padding-top:2px;"><a href="https://twitter.com/SynergistBand" class="twitter-follow-button" data-show-count="false" data-button="grey" data-text-color="#FFFFFF" data-link-color="#00AEFF" data-lang="en">Follow @SynergistBand</a></div>
+        <div class="newsSocialBtn"><iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="113" src="http://platform.tumblr.com/v1/follow_button.html?button_type=2&tumblelog=synergistband&color_scheme=dark"></iframe></div>
+    </div>
+    <section class="newsPost" style="clear:both;">    
         <!--Title of Post--> 
         <h2><script type="text/javascript">if (tumblr_api_read['posts'][0]['regular-title'] != undefined){
         document.write(tumblr_api_read['posts'][0]['regular-title']); }</script></h2>
@@ -114,19 +120,20 @@
         <div class="gradient">&nbsp;</div>
     </div>
     <div class="read-more"></div>    
-    
-    <a href="http://synergistband.tumblr.com/" target="_blank" class="menuLink">NewS Archive</a> <span class="smallText">(Tumblr)</span>
+    <hr>
+    <a href="http://synergistband.tumblr.com/" target="_blank" class="menuLink">NewS Archive</a> <span class="smallText">(Tumblr)</span><br>&nbsp;
     </section>
    
   <!-- end .content --></article>
-  <aside id="aside">
+  <aside  class="centered">
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album.html"); ?>
   </aside>
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
  ?>
+  
+
+
   <!-- end .container --></div>
-
-
 </body>
 </html>

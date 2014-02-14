@@ -99,7 +99,7 @@
     </section>
     
   <!-- end .content --></article>
-  <aside>
+  <aside class="centered">
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album.html"); ?>
   </aside>  
 <?php

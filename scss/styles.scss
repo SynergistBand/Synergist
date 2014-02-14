@@ -128,9 +128,27 @@ body {
 			text-align: center;
 			}
 		}
+		
+		h1#recentNews{
+			clear:both;
+			margin-bottom:0px;
+		}
+
+		#newsSocialBtns{
+			margin-bottom:10px;
+			.newsSocialBtn{
+			float:left;
+			margin-right:5%;
+			margin-bottom:10px;
+			
+
+			}
+		}
 	}
+
 	aside {
 		width: 29.5%;
+		
 		
 
 		ol, ul, p, {			
@@ -162,7 +180,23 @@ body {
 				float:none;
 			}
 		}
+		
 	}
+	
+	aside.centered{
+		text-align:center;
+		img {
+			margin-left:auto;
+			margin-right:auto;
+			@media screen and (max-width: 910px) {
+				margin-left:0px;		}
+			}
+		@media screen and (max-width: 910px) {
+			text-align:left;
+			
+		}
+	}
+
 	article, aside {
 		min-height:650px;
 		float: left;
@@ -173,9 +207,10 @@ body {
 		@include box-bg;
 		
 		@media screen and (max-width: 910px) {
-			clear: both;
-			float: none;
+			clear: both;		
 			width: 97%;
+			margin-left:auto;
+			margin-right:auto;
 			min-height: 100px !important;
 
 		}

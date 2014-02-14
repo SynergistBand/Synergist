@@ -49,7 +49,7 @@
       <div id="youmax"></div>
 
     </div>
-
+<!-- Artwork section to be built here
     <div>
       <h2>Album Artwork</h2>
       
@@ -57,13 +57,15 @@
 
       <a href='#' class='albumArt'>Balanced</a>
       
-        <!-- modal content -->
+        -->
+
+    <!-- modal content 
     <div id="modal-content">
 
 
       <img src="images/AlbumArt/Balanced.jpg" style="max-height:100%; max-width:100%;"></div>
         <br>&nbsp;<br>
-    </div>
+    </div>-->
 
 
     <!-- Removed this but saved code for later just in case

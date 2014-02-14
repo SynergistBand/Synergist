@@ -23,12 +23,12 @@
       2013 saw the release of the Synergist's self-titled debut album, which was written, recorded and produced independently by the band. 
       It&nbsp;is available for download at <a href="http://synergist.bandcamp.com">synergist.bandcamp.com</a>.
       <br>&nbsp;<br />
-      <hr style="margin-top:15px;" />We are seeking a new bassist, and possibly further members.<br> Contact us by email at 
-      <a href="mailto:contact@synergistband.com">contact@synergistband.com</a> or <a href="social.php">hit us up on social media!</a><hr style="margin-top:8px" /> 
+      <hr style="margin-top:15px;" />We are seeking a new bassist, and potentially other members.<br> Get in touch via email, 
+      <a href="mailto:contact@synergistband.com">contact@synergistband.com</a>, or <a href="social.php">hit us up on social media!</a><hr style="margin-top:8px" /> 
       <br>&nbsp;
     </section>
   <!-- end .content --></article>
-  <aside>
+  <aside class="centered">
     <img src="images/bioPic.jpg" style="width:100%;">
   </aside>
 <?php

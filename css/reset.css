@@ -142,8 +142,8 @@ footer {
 header, section, footer, aside, article, figure,  {
 	display: block;
 }
-@media screen and (max-width: 826px) {
-		p, aside {
+@media screen and (max-width: 910px) {
+		p {
 			font-size: .8em;
 		}
 		h1 { font-size: 1em; }
