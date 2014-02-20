@@ -1,0 +1,17 @@
+<div id="lyricsbox" style="position: relative;  margin-left:-115px; z-index=8; width:280px;"> <div id="friendstitle" style="position: relative; margin-left: -10px; z-index: 9;"><img src="http://www.cutch.ca/synergist/synergist_myspace_lyrics.png" /></div><i>the Catalyst demos</i> - <span style="font-size:9px">(2008)</span><br />
+<a href="http://www.cutch.ca/synergist/lyrics/greener.html" target="_blank">Greener (in the Comfort of Sun)</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/itch.html" target="_blank">the Itch</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/etre.html" target="_blank">Être</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/consciousCliche.html" target="_blank">Conscious Cliché</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/hourglass.html" target="_blank">the Hourglass</a><br />
+
+<br />
+<i>Other</i> - <span style="font-size:9px">(2009 - present)</span><br />
+<a href="http://www.cutch.ca/synergist/lyrics/balanced.html" target="_blank">Balanced</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/scientistsFaith.html" target="_blank">A Scientist's Faith</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/method.html" target="_blank">Method & Manipulation</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/deNihilism.html" target="_blank">deNihilism</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/omega.html" target="_blank">Omega</a><br />
+<a href="http://www.cutch.ca/synergist/lyrics/still.html" target="_blank">Still</a><br />
+<br />
+</div>&nbsp;<br />

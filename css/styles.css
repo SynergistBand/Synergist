@@ -38,7 +38,7 @@ body {
 
 
 
-	background-image:url('../bg/bg_synergist.jpg');
+	background-image:url('../bg/bg_Synergist_Lightning.jpg');
 
 
 
@@ -82,23 +82,6 @@ body {
 
 
 
-a {
-
-
-
-	color: #04aeff;
-
-
-
-	font-weight:bold;
-
-
-
-	text-decoration:none;
-
-
-
-}
 
 
 
@@ -106,19 +89,6 @@ a {
 
 
 
-a:visited {
-
-
-
-	color: #04aeff;
-
-
-
-	font-weight:bold;
-
-
-
-}
 
 
 
@@ -126,19 +96,7 @@ a:visited {
 
 
 
-a:active, a:hover {
 
-
-
-	color: #52c4f6;
-
-
-
-	font-weight:bold;
-
-
-
-}
 
 
 
@@ -194,7 +152,7 @@ div#synergistLogo{
 
 
 
-	margin-top:273px;
+	margin-top:32px;
 
 
 
@@ -238,7 +196,7 @@ div#musicPlayer{
 
 
 
-	width:865px;
+	width:860px;
 
 
 
@@ -263,7 +221,6 @@ div#musicPlayer{
 
 
 	padding:0;
-	
 
 
 
@@ -331,7 +288,7 @@ div#content{
 
 
 
-	height:800px;
+	height:700px;
 
 
 
@@ -459,7 +416,7 @@ div#URL{
 
 
 
-	padding-bottom:5px;
+	padding-bottom:11px;
 
 
 
@@ -525,7 +482,7 @@ div#URL{
 
 
 
-#band-bio { 
+#band-bio, #video { 
 
 
 
@@ -540,18 +497,18 @@ div#URL{
 }
 
 #video{
-	padding: 10px 10px 0 10px;
-	padding-top:14px;
-	position:relative; 
-	line-height:9px; 
-	left:-330px;
-	}
+position: relative;
+left:-330px;
+padding-top:20px;
+padding-bottom: 50px;}
 
 
 
-#lyrics a {color:#ffc645;}
 
-div#lyrics a:active, div#lyrics a:hover {color:#ffde45;}
+
+a {color:#ffc645;}
+
+a:active, a:hover {color:#ffde45;}
 
 .social-link li{
 
