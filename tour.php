@@ -15,7 +15,7 @@
   <article class="content">
     <section>     
       <table>
-        <tr><td colspan="3"><h1>Upcoming Shows</h1></tr>
+        <tr><td colspan="3"><h1>Upcoming Shows</h1></td></tr>
         <!--<tr>
           <th align="left">Venue</th>
           <th align="left" class="date">Date</th>
@@ -24,9 +24,9 @@
         <tr>
           <td colspan="3">Nothin' yet! Check back soon!</td>
         </tr>
-        <tr>
-          <td colspan="3">&nbsp;</td>
-        </tr>
+      </table>
+
+      <table>
         <tr><td colspan="3"><h1>Past Shows</h1></tr>
          <tr>
            <th align="left">Venue</th>

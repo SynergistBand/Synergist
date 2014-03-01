@@ -20,33 +20,42 @@ $black: #000000;
 }
 
 
-.clear {
+.clear 
+{
 	clear: none; 
 }
-.nav a {
-	/* Fallback for web browsers that don't support RGBa */
+.nav 
+{
+	a 
+	{
+		/* Fallback for web browsers that don't support RGBa */
  	color: rgb(175, 175, 175);
 
     /* RGBa with 0.6 opacity */
     color: rgba(255, 255, 255, 0.70);
+
+    	&:hover 
+    	{
+    		color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
+    		color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
+    	}
+	}
 }
 
-.nav a:hover {  	
-    color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
-    color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
-}
-
-body {
+body 
+{
 	
 	background: #000 url(../bg/synergist_portal.jpg) top center no-repeat;
 	background-size: 100%;
+
 	/* Fallback for web browsers that don't support RGBa */
     color: rgb(175, 175, 175);
 
     /* RGBa with 0.6 opacity */
     color: rgba(255, 255, 255, 0.70);
 
-	.container {
+	.container 
+	{
 		clear: both;
 		padding-top: 9%;
 		width: 75%;
@@ -54,150 +63,181 @@ body {
 
 	}
 
-	header {
+	#media
+	{
+		.instagram
+		{
+			margin-bottom: 33px;
+			vertical-align: middle;
+		}
+	}
+
+	header 
+	{
 		clear: both;
 		margin-bottom: 10px;
 		padding: 5px 5px 5px 5px;
 		@include box-bg;
-		#centerNav{ 
-				display: table;
-				margin: 0 auto;
-				min-width:1122px;
-				@media screen and (max-width: 1463px) {
-					
-					min-width:0;
-				}
+
+		#centerNav
+		{ 
+			min-width:1122px;
+			@media screen and (max-width: 1463px) 
+			{
+				
+				min-width:0;
+			}
 				
 
-			ul {
-			display: block;
+			ul 
+			{
+				display: block;
 			
-
-			
-				li { 
-					display: inline;
-					padding-left:2%;
-					padding-right:2%;
-					min-width:130px;
+				li 
+				{ 
+					display: inline-block;
+					padding-left: 2%;
+					padding-right: 2%;
 					
-					@media screen and (max-width: 1463px) {
-						
-						min-width:28%;
+					@media screen and (max-width: 1463px) 
+					{
 						padding-top:2px;
 						padding-bottom:2px;
 					}
-					@media screen and (max-width: 491px) {
-						
-						min-width:49%;					
+					@media screen and (max-width: 491px) 
+					{
 						display:block;
 					}
-					display: inline-block;
-					
+
 					text-align: center;
 					
-					a { width: 100%; }
+					a 
+					{ 
+						width: 100%; 
+					}
 				}
-		}
-		.nav {
+			}
+		}	
+		.nav 
+		{
 			margin: auto;
 			
-			@media screen and (max-width: 910px) {
+			@media screen and (max-width: 910px) 
+			{
 				display: inline-block;
-				
 			}
-			li {
-				a{
-					
-				}
-			}
-		}}
-		.mobile {
+		}
+		.mobile 
+		{
 			padding-top: 0px;
 			overflow: hidden;
 		}
 	}
-	article {
+
+	article 
+	{
 		width: 63.5%;
 		margin-right: 1%;
 
-		table {
+		table 
+		{
 			width:100%;
-			.date{
-			padding-left:20px;
-			padding-right:20px;
-			text-align: center;
+
+			.date
+			{
+				padding-left:20px;
+				padding-right:20px;
+				text-align: center;
 			}
 		}
 		
-		h1#recentNews{
+		#recentNews
+		{
 			clear:both;
 			margin-bottom:0px;
 		}
 
-		#newsSocialBtns{
+		#newsSocialBtns
+		{
 			margin-bottom:10px;
-			.newsSocialBtn{
-			float:left;
-			margin-right:5%;
-			margin-bottom:10px;
-			
 
+			.newsSocialBtn
+			{
+				float:left;
+				margin-right:5%;
+				margin-bottom:10px;
 			}
 		}
 	}
 
-	aside {
+	aside 
+	{
 		width: 29.5%;
 		
-		
-
-		ol, ul, p, {			
+		ol, ul, p, 
+		{			
 			padding-bottom:16px; 			
 			list-style: inside;
 			list-style-type: decimal;
 			font: 100%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 			clear:left;
-			}
-		img {
+		}
+		img 
+		{
 			max-width:100%;
 			margin-left:auto;
 			margin-right:auto;
 			display:block;
 		}
 
-		table#tracks {
+		#tracks 
+		{
 			font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 			margin-top:16px;
 		}
 
-		img#albumArtFloat {
+		#albumArtFloat 
+		{
 			max-width:55%; 
 			float:right; 
 			margin:0; 
 			margin-left:0.5%;
-			@media screen and (max-width: 1600px) {
+
+			@media screen and (max-width: 1600px) 
+			{
 				margin-left:0; 
 				float:none;
 			}
 		}
+
+		.contact 
+		{
+			display: block;
+			margin-bottom: 20px;
+		}
 		
 	}
 	
-	aside.centered{
+	.centered
+	{
 		text-align:center;
-		img {
+		img 
+		{
 			margin-left:auto;
 			margin-right:auto;
-			@media screen and (max-width: 910px) {
-				margin-left:0px;		}
+			@media screen and (max-width: 910px) 
+			{
+				margin-left:0px;		
 			}
-		@media screen and (max-width: 910px) {
+		}
+		@media screen and (max-width: 910px) 
+		{
 			text-align:left;
-			
 		}
 	}
 
-	article, aside {
+	article, aside 
+	{
 		min-height:650px;
 		float: left;
 		padding-left: 1.5%;
@@ -206,7 +246,8 @@ body {
 		padding-bottom:1%;
 		@include box-bg;
 		
-		@media screen and (max-width: 910px) {
+		@media screen and (max-width: 910px) 
+		{
 			clear: both;		
 			width: 97%;
 			margin-left:auto;
@@ -214,33 +255,40 @@ body {
 			min-height: 100px !important;
 
 		}
-		
-		
+
 	}	
 }
 
-#music-player-container {
+#music-player-container 
+{
 	margin: 0px auto 37px; 
 	width: 700px;
 }
-#mobile-music-player-container {
+#mobile-music-player-container 
+{
 	display: none;
 	margin: 0px auto 10px; 
 }
-@media screen and (max-width: 942px) {
-	#mobile-music-player-container {
+@media screen and (max-width: 942px) 
+{
+	#mobile-music-player-container 
+	{
 		display: block;
 	}
-	#music-player-container {
+	#music-player-container 
+	{
 		display: none;
 	}
 }
-@media screen and (max-width: 320px) {
-	#maintext {
+@media screen and (max-width: 320px) 
+{
+	#maintext 
+	{
 		width: 40%;
 	}
 }
-.newsDate{
+.newsDate
+{
 	font-size:9px;
 	font-weight: regular;
 	white-space: nowrap;
@@ -248,7 +296,8 @@ body {
 	margin-bottom:14px;
 
 }
-.newsPhoto, .newsPhotoBig{	
+.newsPhoto, .newsPhotoBig
+{	
 	margin-bottom:14px;
 	margin-right:10px;
 	max-height:640px;
@@ -256,17 +305,20 @@ body {
 	max-width:50%;
 	
 }
-.newsPhotoBig{
+.newsPhotoBig
+{
 	display:block;	
 	max-width:100%;
 	float:none;
 }
 
-.smallText {
+.smallText 
+{
 	font: 70%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
 }
 
-a.menuLink, a.menuLink:visited{
+a.menuLink, a.menuLink:visited
+{
     color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
     color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
  	color: rgb(175, 175, 175); /* Fallback for web browsers that don't support RGBa */    
@@ -275,9 +327,13 @@ a.menuLink, a.menuLink:visited{
 	font-size: 1em;
 	text-decoration: none;
 }
-a.menuLink:hover{
-	color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
-    color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
+
+a.menuLink
+{
+	&:hover {
+		color: #b38b30; /* Fallback for web browsers that don't support RGBa */    
+	    color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
+   }
 }
 
 

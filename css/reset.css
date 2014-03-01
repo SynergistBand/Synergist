@@ -41,6 +41,7 @@ h1 {
 h2 { 
 	font-size: 1.2em;
 	margin-bottom: 0px; 
+	display: inline-block;
 }
 
 
@@ -54,8 +55,8 @@ a:visited, a:link {
 
     /* RGBa with 0.6 opacity */
     color: rgba(255, 198, 69, 0.70); /* #ffc645 */
+    text-decoration: none;
 
-	text-decoration: underline;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	/* Fallback for web browsers that don't support RGBa */
@@ -63,7 +64,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
     /* RGBa with 0.6 opacity */
     color: rgba(255, 218, 69, 0.70); /* #ffda45 */
-	text-decoration: none;
+	text-decoration: underline;
 }
 /* ~~ This fixed width container surrounds all other blocks ~~ */
 .container {
@@ -146,8 +147,8 @@ header, section, footer, aside, article, figure,  {
 		p {
 			font-size: .8em;
 		}
-		h1 { font-size: 1em; }
-		h2 { font-size: .8em; }
+		h1 { font-size: 1.5em; }
+		h2 { font-size: 1em; }
 }
 hr{
 	height:1px; 

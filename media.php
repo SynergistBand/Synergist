@@ -37,17 +37,28 @@
 
 <body>
 
-<div class="container">
+<div class="container" id="media">
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
  ?>
   
   <article class="content">
     <h1>Media</h1>
-    <div>
+
       <h2>YouTube</h2>
       <div id="youmax"></div>
+      <h2 class="instagram">Instagram</h2>
 
+      <style>.ig-b- { display: inline-block; }
+      .ig-b- img { visibility: hidden; }
+      .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+      .ig-b-48 { width: 48px; height: 48px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-48.png) no-repeat 0 0; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+      .ig-b-48 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-48@2x.png); background-size: 60px 178px; } }</style>
+      <a href="http://instagram.com/synergistband?ref=badge" class="ig-b- ig-b-48"><img src="//badges.instagram.com/static/images/ig-badge-48.png" alt="Instagram" /></a>
+      
+    <div id="instagram"><!-- SnapWidget -->
+        <iframe src="http://snapwidget.com/bd/?u=c3luZXJnaXN0YmFuZHxpbnwyMDB8M3wzfHx5ZXN8MjB8bm9uZXxvblN0YXJ0fHllcw==&v=28214" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:666px; height:1041px"></iframe>
     </div>
 <!-- Artwork section to be built here
     <div>

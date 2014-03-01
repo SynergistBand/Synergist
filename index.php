@@ -19,7 +19,7 @@
  
   <article id="article" class="content">
     
-    <h1 id="recentNews">Recent&nbsp;News</h1>
+    <h1 id="recentNews">News</h1>
     <div id="newsSocialBtns">
         <div class="newsSocialBtn" style="padding-bottom:5px; padding-top:1px;"><div class="fb-like" data-href="https://www.facebook.com/SynergistBand" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></div>
         <div class="newsSocialBtn" style="padding-top:2px;"><a href="https://twitter.com/SynergistBand" class="twitter-follow-button" data-show-count="false" data-button="grey" data-text-color="#FFFFFF" data-link-color="#00AEFF" data-lang="en">Follow @SynergistBand</a></div>
@@ -127,6 +127,7 @@
   <!-- end .content --></article>
   <aside  class="centered">
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album.html"); ?>
+    <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/social.html"); ?>
   </aside>
 <?php
  require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");

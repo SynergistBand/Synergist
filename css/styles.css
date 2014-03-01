@@ -8,7 +8,6 @@
   /* RGBa with 0.6 opacity */
   color: rgba(255, 255, 255, 0.7);
 }
-
 .nav a:hover {
   color: #b38b30;
   /* Fallback for web browsers that don't support RGBa */
@@ -30,6 +29,10 @@ body .container {
   width: 75%;
   height: 100%;
 }
+body #media .instagram {
+  margin-bottom: 33px;
+  vertical-align: middle;
+}
 body header {
   clear: both;
   margin-bottom: 10px;
@@ -47,8 +50,6 @@ body header {
   border-radius: 6px;
 }
 body header #centerNav {
-  display: table;
-  margin: 0 auto;
   min-width: 1122px;
 }
 @media screen and (max-width: 1463px) {
@@ -60,34 +61,30 @@ body header #centerNav ul {
   display: block;
 }
 body header #centerNav ul li {
-  display: inline;
+  display: inline-block;
   padding-left: 2%;
   padding-right: 2%;
-  min-width: 130px;
-  display: inline-block;
   text-align: center;
 }
 @media screen and (max-width: 1463px) {
   body header #centerNav ul li {
-    min-width: 28%;
     padding-top: 2px;
     padding-bottom: 2px;
   }
 }
 @media screen and (max-width: 491px) {
   body header #centerNav ul li {
-    min-width: 49%;
     display: block;
   }
 }
 body header #centerNav ul li a {
   width: 100%;
 }
-body header #centerNav .nav {
+body header .nav {
   margin: auto;
 }
 @media screen and (max-width: 910px) {
-  body header #centerNav .nav {
+  body header .nav {
     display: inline-block;
   }
 }
@@ -107,7 +104,7 @@ body article table .date {
   padding-right: 20px;
   text-align: center;
 }
-body article h1#recentNews {
+body article #recentNews {
   clear: both;
   margin-bottom: 0px;
 }
@@ -135,36 +132,40 @@ body aside img {
   margin-right: auto;
   display: block;
 }
-body aside table#tracks {
+body aside #tracks {
   font: 80%/1.4 Eurostile, Verdana, Arial, Helvetica, sans-serif;
   margin-top: 16px;
 }
-body aside img#albumArtFloat {
+body aside #albumArtFloat {
   max-width: 55%;
   float: right;
   margin: 0;
   margin-left: 0.5%;
 }
 @media screen and (max-width: 1600px) {
-  body aside img#albumArtFloat {
+  body aside #albumArtFloat {
     margin-left: 0;
     float: none;
   }
 }
-body aside.centered {
+body aside .contact {
+  display: block;
+  margin-bottom: 20px;
+}
+body .centered {
   text-align: center;
 }
-body aside.centered img {
+body .centered img {
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 910px) {
-  body aside.centered img {
+  body .centered img {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 910px) {
-  body aside.centered {
+  body .centered {
     text-align: left;
   }
 }
