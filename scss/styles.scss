@@ -22,7 +22,7 @@ $black: #000000;
 
 .clear 
 {
-	clear: none; 
+	clear: both; 
 }
 .nav 
 {
@@ -74,24 +74,24 @@ body
 
 	header 
 	{
-		clear: both;
 		margin-bottom: 10px;
-		padding: 5px 5px 5px 5px;
-		@include box-bg;
-
+		text-align: center;
+		
 		#centerNav
 		{ 
-			min-width:1122px;
-			@media screen and (max-width: 1463px) 
+			@include box-bg;
+			display: inline-block;
+			width: 550px;
+			float: left;
+			@media screen and (max-width: 720px) 
 			{
-				
-				min-width:0;
+				width: 112px;
+				display: inline-block;
+				float: none;
+				margin-bottom: 10px;
 			}
-				
-
 			ul 
 			{
-				display: block;
 			
 				li 
 				{ 
@@ -104,7 +104,7 @@ body
 						padding-top:2px;
 						padding-bottom:2px;
 					}
-					@media screen and (max-width: 491px) 
+					@media screen and (max-width: 720px) 
 					{
 						display:block;
 					}
@@ -118,15 +118,6 @@ body
 				}
 			}
 		}	
-		.nav 
-		{
-			margin: auto;
-			
-			@media screen and (max-width: 910px) 
-			{
-				display: inline-block;
-			}
-		}
 		.mobile 
 		{
 			padding-top: 0px;
@@ -139,10 +130,23 @@ body
 		width: 63.5%;
 		margin-right: 1%;
 
+		.content 
+		{
+			table
+			{
+
+			}
+		}
+
 		table 
 		{
 			width:100%;
 
+			.show-date
+			{
+				border: 1px solid gray;
+			}
+			
 			.date
 			{
 				padding-left:20px;
@@ -153,21 +157,10 @@ body
 		
 		#recentNews
 		{
-			clear:both;
-			margin-bottom:0px;
+			clear: both;
+			margin-bottom: 10px;
 		}
 
-		#newsSocialBtns
-		{
-			margin-bottom:10px;
-
-			.newsSocialBtn
-			{
-				float:left;
-				margin-right:5%;
-				margin-bottom:10px;
-			}
-		}
 	}
 
 	aside 
@@ -259,6 +252,27 @@ body
 	}	
 }
 
+#newsSocialBtns
+{
+	display: inline-block;
+	width: 374px;
+	float: right;
+	@media screen and (max-width: 720px) 
+	{
+		float: none;
+		width: 244px;
+	}
+
+	.newsSocialBtn
+	{
+		float:left;
+		margin-right:5%;
+		@media screen and (max-width: 720px) 
+		{
+			float: none;
+		}
+	}
+}
 #music-player-container 
 {
 	margin: 0px auto 37px; 

@@ -105,7 +105,6 @@ aside {
 /* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
 ul.nav {
 	list-style: none; /* this removes the list marker */
-	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
 }
 ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
 	font-family: "Planet N", Verdana, Tahoma;

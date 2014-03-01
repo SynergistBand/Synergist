@@ -1,5 +1,5 @@
 .clear {
-  clear: none;
+  clear: both;
 }
 
 .nav a {
@@ -34,9 +34,10 @@ body #media .instagram {
   vertical-align: middle;
 }
 body header {
-  clear: both;
   margin-bottom: 10px;
-  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+body header #centerNav {
   /* Fallback for web browsers that don't support RGBa */
   background-color: black;
   /* RGBa with 0.6 opacity */
@@ -48,17 +49,17 @@ body header {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  display: inline-block;
+  width: 550px;
+  float: left;
 }
-body header #centerNav {
-  min-width: 1122px;
-}
-@media screen and (max-width: 1463px) {
+@media screen and (max-width: 720px) {
   body header #centerNav {
-    min-width: 0;
+    width: 112px;
+    display: inline-block;
+    float: none;
+    margin-bottom: 10px;
   }
-}
-body header #centerNav ul {
-  display: block;
 }
 body header #centerNav ul li {
   display: inline-block;
@@ -72,21 +73,13 @@ body header #centerNav ul li {
     padding-bottom: 2px;
   }
 }
-@media screen and (max-width: 491px) {
+@media screen and (max-width: 720px) {
   body header #centerNav ul li {
     display: block;
   }
 }
 body header #centerNav ul li a {
   width: 100%;
-}
-body header .nav {
-  margin: auto;
-}
-@media screen and (max-width: 910px) {
-  body header .nav {
-    display: inline-block;
-  }
 }
 body header .mobile {
   padding-top: 0px;
@@ -99,6 +92,9 @@ body article {
 body article table {
   width: 100%;
 }
+body article table .show-date {
+  border: 1px solid gray;
+}
 body article table .date {
   padding-left: 20px;
   padding-right: 20px;
@@ -106,14 +102,6 @@ body article table .date {
 }
 body article #recentNews {
   clear: both;
-  margin-bottom: 0px;
-}
-body article #newsSocialBtns {
-  margin-bottom: 10px;
-}
-body article #newsSocialBtns .newsSocialBtn {
-  float: left;
-  margin-right: 5%;
   margin-bottom: 10px;
 }
 body aside {
@@ -195,6 +183,27 @@ body article, body aside {
     margin-left: auto;
     margin-right: auto;
     min-height: 100px !important;
+  }
+}
+
+#newsSocialBtns {
+  display: inline-block;
+  width: 374px;
+  float: right;
+}
+@media screen and (max-width: 720px) {
+  #newsSocialBtns {
+    float: none;
+    width: 244px;
+  }
+}
+#newsSocialBtns .newsSocialBtn {
+  float: left;
+  margin-right: 5%;
+}
+@media screen and (max-width: 720px) {
+  #newsSocialBtns .newsSocialBtn {
+    float: none;
   }
 }
 
