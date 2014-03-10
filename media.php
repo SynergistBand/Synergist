@@ -3,7 +3,7 @@
 <html>
 <head>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/head.html");
+ require("inc/head.html");
  ?>
 
 <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
@@ -39,7 +39,7 @@
 
 <div class="container" id="media">
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
+ require("inc/nav.html");
  ?>
   
   <article class="content">
@@ -111,10 +111,10 @@
     </div>-->
   <!-- end .content --></article>
   <aside>
-    <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album-listen.html"); ?>
+    <?php require("inc/album-listen.html"); ?>
   </aside>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
+ require("inc/footer.html");
  ?>
   <!-- end .container --></div>
 

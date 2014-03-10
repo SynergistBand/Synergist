@@ -2,14 +2,14 @@
 <html>
 <head>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/head.html");
+ require("inc/head.html");
  ?></head>
 
 <body>
 
 <div class="container">
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
+ require("inc/nav.html");
  ?>
   
   <article class="content">
@@ -32,7 +32,7 @@
     <img src="images/bioPic.jpg" style="width:100%;">
   </aside>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
+ require("inc/footer.html");
  ?>
   <!-- end .container --></div>
 </body>

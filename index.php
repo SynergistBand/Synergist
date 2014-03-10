@@ -2,7 +2,7 @@
 <html bgcolor="#FFFFFF">
 <head>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/head.html");
+ require("inc/head.html");
  ?>
 <script type="text/javascript" src="http://synergistband.tumblr.com/api/read/json"></script>
 <script type="text/javascript" src="js/expand.js"></script>
@@ -14,7 +14,7 @@
 <div class="container">
 
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
+ require("inc/nav.html");
  ?>
  
   <article id="article" class="content">
@@ -122,11 +122,11 @@
    
   <!-- end .content --></article>
   <aside  class="centered">
-    <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/album.html"); ?>
-    <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/social.html"); ?>
+    <?php require("inc/album.html"); ?>
+    <?php require("inc/social.html"); ?>
   </aside>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
+ require("inc/footer.html");
  ?>
   
 

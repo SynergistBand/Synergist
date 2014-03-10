@@ -2,7 +2,7 @@
 <html>
 <head>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/head.html");
+ require("inc/head.html");
  ?>
 
  </head>
@@ -11,7 +11,7 @@
 
 <div class="container">
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/nav.html");
+ require("inc/nav.html");
  ?>
   
   <article class="content">
@@ -41,10 +41,10 @@
     </section>
   <!-- end .content --></article>
   <aside>
-    <?php require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/contact.html"); ?>
+    <?php require("inc/contact.html"); ?>
   </aside>
 <?php
- require($_SERVER['DOCUMENT_ROOT'] . "/Synergist/inc/footer.html");
+ require("inc/footer.html");
  ?>
   <!-- end .container --></div>
 </body>
