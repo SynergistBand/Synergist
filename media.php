@@ -58,7 +58,8 @@
       <a href="http://instagram.com/synergistband?ref=badge" class="ig-b- ig-b-48"><img src="//badges.instagram.com/static/images/ig-badge-48.png" alt="Instagram" /></a>
       
     <div id="instagram"><!-- SnapWidget -->
-        <iframe src="http://snapwidget.com/bd/?u=c3luZXJnaXN0YmFuZHxpbnwyMDB8M3wzfHx5ZXN8MjB8bm9uZXxvblN0YXJ0fHllcw==&v=28214" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:666px; height:1041px"></iframe>
+        <!-- www.intagme.com -->
+        <iframe src="http://www.intagme.com/in/?u=c3luZXJnaXN0YmFuZHxpbnwxMDB8M3wyfHx5ZXN8NXx1bmRlZmluZWQ=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height: 230px" ></iframe>
     </div>
 <!-- Artwork section to be built here
     <div>
