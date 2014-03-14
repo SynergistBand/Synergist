@@ -34,10 +34,10 @@
         <div>
             <!--Post Image-->
             <script type="text/javascript">
-                if (tumblr_api_read['posts'][0]['photo-url-1280'] != undefined){ 
+                if (tumblr_api_read['posts'][0]['photo-url-400'] != undefined){ 
                     if (tumblr_api_read['posts'][0]['regular-body'] != undefined){ // float smaller if image goes with text
-                        document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhoto />');}
-                    else {document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-1280'] + ' class=newsPhotoBig />');
+                        document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-400'] + ' class=newsPhoto />');}
+                    else {document.write('<img src=' + tumblr_api_read['posts'][0]['photo-url-400'] + ' class=newsPhotoBig />');
                           $("#newsPost0").attr('class', 'noWrap'); // changes the "wrap class to noWrap so that images show without expandable <div>
                         }
                 }</script>  
@@ -66,10 +66,10 @@
         <div>
             <!--Post Image-->
             <script type="text/javascript">
-                if (tumblr_api_read['posts'][1]['photo-url-1280'] != undefined){ 
+                if (tumblr_api_read['posts'][1]['photo-url-400'] != undefined){ 
                     if (tumblr_api_read['posts'][1]['regular-body'] != undefined){ // float smaller if image goes with text
-                        document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhoto />');}
-                    else {document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-1280'] + ' class=newsPhotoBig />');
+                        document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-400'] + ' class=newsPhoto />');}
+                    else {document.write('<img src=' + tumblr_api_read['posts'][1]['photo-url-400'] + ' class=newsPhotoBig />');
                           $("#newsPost1").attr('class', 'noWrap'); // changes the wrap class to noWrap so that images show without expandable <div>
                         }
                 }</script>  
@@ -99,10 +99,10 @@
         <div>
             <!--Post Image-->
             <script type="text/javascript">
-                if (tumblr_api_read['posts'][2]['photo-url-1280'] != undefined){ 
+                if (tumblr_api_read['posts'][2]['photo-url-400'] != undefined){ 
                     if (tumblr_api_read['posts'][2]['regular-body'] != undefined){ // float smaller if image goes with text
-                        document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhoto />');}
-                    else {document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-1280'] + ' class=newsPhotoBig />');
+                        document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-400'] + ' class=newsPhoto />');}
+                    else {document.write('<img src=' + tumblr_api_read['posts'][2]['photo-url-400'] + ' class=newsPhotoBig />');
                           $("#newsPost2").attr('class', 'noWrap'); // changes the wrap class to noWrap so that images show without expandable <div>
                       }
                 }</script>  
