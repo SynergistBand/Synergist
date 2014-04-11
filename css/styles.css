@@ -188,7 +188,7 @@ body article, body aside {
 
 .newsSocialBtns {
   display: inline-block;
-  width: 374px;
+  width: 360px;
   float: right;
 }
 @media screen and (max-width: 1270px) {
@@ -205,7 +205,7 @@ body article, body aside {
   }
 }
 .newsSocialBtns .newsSocialBtn {
-  float: right;
+  float: left;
   margin-right: 5%;
 }
 @media screen and (max-width: 1270px) {
@@ -220,7 +220,7 @@ body article, body aside {
   }
 }
 
-.newsSocialBtns .newsSocialBtn:nth-child(1) {
+.newsSocialBtns .newsSocialBtn:nth-child(3) {
   margin-right: 1%;
 }
 
