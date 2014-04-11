@@ -252,27 +252,40 @@ body
 	}	
 }
 
-#newsSocialBtns
+.newsSocialBtns
 {
 	display: inline-block;
 	width: 374px;
 	float: right;
+
+	@media screen and (max-width: 1270px) {  		
+  		  
+  		  float: none;
+    	  display: block;}
+		
 	@media screen and (max-width: 720px) 
 	{
 		float: none;
 		width: 244px;
+		margin: auto;
 	}
 
 	.newsSocialBtn
 	{
-		float:left;
+		float:right;
 		margin-right:5%;
+		@media screen and (max-width: 1270px) {  		
+  		  margin-top:1.5%;}
 		@media screen and (max-width: 720px) 
 		{
 			float: none;
+			margin-top:0px;
 		}
 	}
 }
+
+.newsSocialBtns .newsSocialBtn:nth-child(1) {margin-right:1%;}	
+
 #music-player-container 
 {
 	margin: 0px auto 37px; 
@@ -349,5 +362,12 @@ a.menuLink
 	    color: rgba(255, 198, 69, 0.70); /* #ffc645 - RGBa with 0.6 opacity */
    }
 }
+
+h1 a {text-decoration:none;
+	&:hover{text-decoration:none;}
+	}
+
+
+
 
 
