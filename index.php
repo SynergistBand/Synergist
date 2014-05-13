@@ -57,7 +57,7 @@
                          
                     
                     document.write('<br>&nbsp;<br>' + tumblr_api_read['posts'][0]['video-caption']); // writes video caption below if available
-                    $("#newsPost1").attr('class', 'noWrap'); // changes the wrap class to noWrap so that video shows without expandable <div>
+                    $("#newsPost0").attr('class', 'noWrap'); // changes the wrap class to noWrap so that video shows without expandable <div>
                 }
 
             //Body of post
@@ -162,7 +162,7 @@
                          
                     
                     document.write('<br>&nbsp;<br>' + tumblr_api_read['posts'][2]['video-caption']); // writes video caption below if available
-                    $("#newsPost1").attr('class', 'noWrap'); // changes the wrap class to noWrap so that video shows without expandable <div>
+                    $("#newsPost2").attr('class', 'noWrap'); // changes the wrap class to noWrap so that video shows without expandable <div>
                 }
 
             //Body of post
@@ -214,7 +214,7 @@
                          
                     
                     document.write('<br>&nbsp;<br>' + tumblr_api_read['posts'][3]['video-caption']); // writes video caption below if available
-                    $("#newsPost1").attr('class', 'noWrap'); // changes the wrap class to noWrap so that video shows without expandable <div>
+                    $("#newsPost3").attr('class', 'noWrap'); // changes the wrap class to noWrap so that video shows without expandable <div>
                 }
             //Body of post
 
