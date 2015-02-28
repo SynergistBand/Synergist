@@ -14,18 +14,19 @@
   
   <article class="content">
     <section>     
-      <table>
+      <!-- <table>
         <tr><td colspan="3"><h1>Upcoming Shows</h1></td></tr>
-        <!-- <tr>
+        <tr>
           <th align="left">Venue</th>
           <th align="left" class="date">Date</th>
           <th align="left">Other Acts</th>
         </tr>
         <tr>
           <td colspan="3">Nothin' yet! Check back soon!</td>
-        </tr> -->
-        <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Synergist" class="bit-widget-initializer" data-artist="Synergist">Synergist Tour Dates</a>
-      </table>
+        </tr>
+        <tr></tr>
+      </table> -->
+      <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Synergist" class="bit-widget-initializer" data-artist="Synergist">Synergist Tour Dates</a>
 
       <table>
         <tr><td colspan="3"><h1>Past Shows</h1></tr>
