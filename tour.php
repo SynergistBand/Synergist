@@ -26,7 +26,7 @@
         </tr>
         <tr></tr>
       </table> -->
-      <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Synergist" class="bit-widget-initializer" data-artist="Synergist">Synergist Tour Dates</a>
+      <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Synergist" class="bit-widget-initializer" data-artist="Synergist" data-facebook-page-id="124053330964187">Synergist Tour Dates</a>
 
       <table>
         <tr><td colspan="3">&nbsp;<br><h1>Past Shows</h1></tr>
