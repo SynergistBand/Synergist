@@ -34,11 +34,14 @@
       <p><strong>YouTube:</strong> <a href="http://www.youtube.com/SynergistBand" target="_blank">youtube.com/SynergistBand</a></p>
       <p><strong>SoundCloud:</strong> <a href="https://soundcloud.com/synergistband" target="_blank">soundcloud.com/synergistband</a></p>
       <p><strong>Rdio:</strong> <a href="http://www.rdio.com/artist/Synergist/album/Synergist/" target="_blank">rdio.com/artist/Synergist/album/Synergist</a></p>
+      <p><strong>Spotify:</strong> <a href="http://open.spotify.com/artist/4QC3HjpAanNOHFEFJxLIUr" target="_blank">open.spotify.com/artist/4QC3HjpAanNOHFEFJxLIUr</a></p>
       <p><strong>Reverb Nation:</strong> <a href="http://www.reverbnation.com/synergistband" target="_blank">reverbnation.com/synergistband</a></p>
       <p><strong>PureVolume:</strong> <a href="http://www.purevolume.com/Synergist" target="_blank">purevolume.com/Synergist</a></p>
       <p><strong>MySpace:</strong> <a href="https://myspace.com/synergistband" target="_blank">https://myspace.com/synergistband</a></p>
       <p><strong>Last.fm:</strong> <a href="http://www.last.fm/music/Synergist" target="_blank">last.fm/music/Synergist</a></p>
+      <br>
     </section>
+    <div class="clear"></div>
   <!-- end .content --></article>
   <aside>
     <?php require("inc/contact.html"); ?>
