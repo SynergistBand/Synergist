@@ -29,7 +29,7 @@
       <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Synergist" class="bit-widget-initializer" data-artist="Synergist">Synergist Tour Dates</a>
 
       <table>
-        <tr><td colspan="3"><h1>Past Shows</h1></tr>
+        <tr><td colspan="3">&nbsp;<br><h1>Past Shows</h1></tr>
          <tr>
            <th align="left">Venue</th>
            <th class="date">Date</th>
