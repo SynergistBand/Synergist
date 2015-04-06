@@ -36,6 +36,11 @@
            <th align="left">Other Acts</th>
          </tr>
           <tr class="show-date">
+            <td>The Central, Toronto, Ontario</td>
+            <td class="date">15/02/01</td>
+            <td>Edward Sayers</td>
+          </tr>
+          <tr class="show-date">
             <td>Adam's Place, Holland Landing, Ontario</td>
             <td class="date">12/08/18</td>
             <td>York Rivalry, Syke</td>
